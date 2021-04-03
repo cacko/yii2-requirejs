@@ -1,0 +1,27 @@
+{
+  "name": "cacko/yii2-requirejs",
+  "description": "Yii2 require.js",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "cacko",
+      "email": "dev@cacko.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cacko\\Yii2\\RequireJs\\": "src/"
+    }
+  },
+  "require": {
+    "php": "~7.4",
+    "yiisoft/yii2": "~2.0.38"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
